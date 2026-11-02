@@ -1,0 +1,9 @@
+# 安裝後才會產生的東西，還有你自己的設定、辨識紀錄：不要上傳
+.venv/
+語音輸入.app/
+config.json
+history.txt
+*.log
+.voice_type.lock
+__pycache__/
+.DS_Store

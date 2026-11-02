@@ -1,0 +1,14 @@
+[project]
+name = "voice-type"
+version = "1.0.0"
+description = "按住 Fn 講話，放開就把語音轉成文字貼到游標位置（macOS 26 內建的蘋果語音辨識，免費、在本機跑）"
+requires-python = ">=3.11,<3.13"
+dependencies = [
+    "sounddevice>=0.4.6",
+    "numpy",
+    "pyobjc-framework-Quartz",
+    "pyobjc-framework-Cocoa",
+]
+
+[tool.uv]
+package = false
